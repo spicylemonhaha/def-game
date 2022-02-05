@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "1cfcd05d-67ec-4b87-a5fc-68ed9fd44ef0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 200,
+  "height": 271,
+  "platformSettings": {},
+  "subMetas": {
+    "pvp_bule_card": {
+      "ver": "1.0.4",
+      "uuid": "bbd87025-df6c-48f2-b2fe-4f108f6c5b4e",
+      "rawTextureUuid": "1cfcd05d-67ec-4b87-a5fc-68ed9fd44ef0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -3,
+      "offsetY": -3.5,
+      "trimX": 3,
+      "trimY": 7,
+      "width": 188,
+      "height": 264,
+      "rawWidth": 200,
+      "rawHeight": 271,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
