@@ -6,6 +6,7 @@ var exports={
         return _url;
     },
     addtexture(_node, texture) {
+        // console.log(texture)
         var _sprite = _node.getComponent(cc.Sprite);
         if (!_sprite)
             _sprite = _node.addComponent(cc.Sprite);
