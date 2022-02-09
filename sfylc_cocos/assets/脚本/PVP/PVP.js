@@ -89,7 +89,6 @@ cc.Class({
 					if(self.match_rank_score!=null){
 						self.match_rank_score = resultSet[0].rank_score;					
 					}
-		
 				}
 		    },
 		    function (err) {
@@ -156,6 +155,7 @@ cc.Class({
 			window.MySql.send("SELECT ismatch FROM queue WHERE user_id = " + window.DataBase.user_id + " AND ismatch = TRUE",
 			    function (resultSet) {
 					console.log("isFinded")
+          console.log(resultSet)
 					if(resultSet.length>0){
 						self.is_finding_duel=false;
 						self.is_finded_duel=true;

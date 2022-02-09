@@ -291,17 +291,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "Urls": [
-      "http://47.98.36.113/others/sfylc_resource/draw/General/alply_spr.jpg",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/Spring_choose/storage_map_swap.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/General/light.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/Spring_choose/storage_map_bubble.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/General/light.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/Spring_choose/storage_map_insert.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/General/light.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/Spring_choose/storage_map_quicksort.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/General/light.png"
-    ],
+    "Urls": [],
     "SpriteNodes": [
       {
         "__id__": 8
@@ -412,7 +402,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "28d8649d-6e24-4171-a976-596876ec2d92"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -781,7 +773,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "ecec21c4-21d0-4c85-b0a0-f69c75444514"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -875,9 +869,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Spring_class2",
-    "TheScene": {
-      "__uuid__": "f0e771cc-6af3-4ec1-abce-b126b2bb7750"
-    },
     "_id": "8cVvLw929BApxs8CJIv2aR"
   },
   {
@@ -1059,7 +1050,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "847c5d93-bad0-46ec-a714-795631db28c0"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1153,9 +1146,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Spring_class3",
-    "TheScene": {
-      "__uuid__": "5b6d471c-a8f5-469d-831f-284260e37291"
-    },
     "_id": "9fGn3XRJdP/ah1XJLa7eV5"
   },
   {
@@ -1337,7 +1327,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "23d0fec4-fecd-49c4-8c3f-fe95673f00d9"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1431,9 +1423,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Spring_class4",
-    "TheScene": {
-      "__uuid__": "ef3fde70-5028-42c4-b9a9-766a5960f766"
-    },
     "_id": "8cu2Y0KgtNo5M+e5vcHDyG"
   },
   {
@@ -1511,7 +1500,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "6894ae1a-fca3-4300-8104-b25593d5731c"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1535,9 +1526,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Spring_class1",
-    "TheScene": {
-      "__uuid__": "6227d47f-d93c-4933-8129-be146b2fc94e"
-    },
     "_id": "fduKNka49LI7t8dEZcRNDs"
   },
   {
@@ -1863,9 +1851,6 @@
     },
     "_enabled": true,
     "scene": "BaseStudy_choose",
-    "TheScene": {
-      "__uuid__": "33e4e998-1be4-4c89-a97f-6584d001fbcf"
-    },
     "_id": "12AZB6ztJM+IFw7r1m/h92"
   },
   {

@@ -290,7 +290,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "28d8649d-6e24-4171-a976-596876ec2d92"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -393,13 +395,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "Urls": [
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_background_light.jpg",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_storagebtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_repairfactorybtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_minefieldbtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_controlcenterbtn.png"
-    ],
+    "Urls": [],
     "SpriteNodes": [
       {
         "__id__": 4
@@ -709,9 +705,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Spring_choose",
-    "TheScene": {
-      "__uuid__": "25ee4f82-2c57-4eff-8aa5-0e2ed6df1021"
-    },
     "_id": "bc/4KmV+5MFZ7Ewifa9lCn"
   },
   {
@@ -757,7 +750,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "27951a84-a04c-4dda-9a69-96a0be582d54"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1061,9 +1054,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Summer_choose",
-    "TheScene": {
-      "__uuid__": "1a6bc941-f4e8-4f84-a7dd-1b3978e21d2e"
-    },
     "_id": "8f0JADVLVBvaK3BFQ2I9FY"
   },
   {
@@ -1109,7 +1099,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "fcce9138-41f5-4044-acfb-9327ad12aaf9"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1413,9 +1403,6 @@
     },
     "_enabled": true,
     "scene": "Basic_Autumn_choose",
-    "TheScene": {
-      "__uuid__": "1203c8fd-1e30-45e6-b2b5-e1fb8bf45efe"
-    },
     "_id": "b1SfqcTwVOc6h1h53+G7T3"
   },
   {
@@ -1461,7 +1448,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "758beef7-bd83-4546-9f7e-765d2f00bf61"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1796,7 +1783,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "294c4696-f37f-4747-af69-54f691def38c"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2071,7 +2058,6 @@
     },
     "_enabled": true,
     "scene": "Study_choose",
-    "TheScene": null,
     "_id": "7ayTi7c0VNz6Uh8aN+ogiE"
   },
   {

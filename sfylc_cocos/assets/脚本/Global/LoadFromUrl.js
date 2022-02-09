@@ -58,7 +58,7 @@ module.exports = cc.Class({
             if (_node) self.Scr.addtexture(_node, texture)
             // console.log((_node ? _node.name : "Pre") + " Loaded texture " + _url);
             self.LoadRemote_Chain(ind + 1);
-            
+            console.log(texture)  
         });
     },
 

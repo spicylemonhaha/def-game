@@ -319,7 +319,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "7b3a52c8-f080-43f7-86d0-e7af060f491b"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -386,14 +388,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "Urls": [
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_map_0.jpg",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_studybtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_storybtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_diybtn.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_contextbtn_competition.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/alply_contextbtn_match.png"
-    ],
+    "Urls": [],
     "SpriteNodes": [
       {
         "__id__": 5
@@ -732,7 +727,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "c8f5034d-1fa8-4441-b970-8d8f43f38475"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -998,7 +995,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "1abc14c8-e6ec-4233-8550-4074bcf4de05"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1199,7 +1198,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "b4f3ca6d-9aa0-4216-acf2-8370129f8e44"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1388,7 +1389,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "422d6e8f-23c2-496c-9c6a-61d615e308d3"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,
@@ -1501,7 +1504,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "6d348ae9-427e-4594-ac2a-31fe8d8e48f7"
+    },
     "_type": 0,
     "_sizeMode": 0,
     "_fillType": 0,

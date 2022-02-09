@@ -1,7 +1,7 @@
 {
   "title": "DefGame",
   "packageName": "org.cocos2d.demo",
-  "startScene": "603948e9-c427-4119-a0f6-bef58ac7fe07",
+  "startScene": "b947afb8-7a17-4fbb-a722-651f09a3fa4b",
   "excludeScenes": [],
   "orientation": {
     "landscapeLeft": true,

@@ -285,7 +285,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "28d8649d-6e24-4171-a976-596876ec2d92"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -389,11 +389,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "Urls": [
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/BaseStudy_choose/basealgorithm_background_light.jpg",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/learnmap_first_basealgorithm.png",
-      "http://47.98.36.113/others/sfylc_resource/draw/StartChooseScene/Study_choose/learnmap_first_ai.png"
-    ],
+    "Urls": [],
     "SpriteNodes": [
       {
         "__id__": 4
@@ -742,7 +738,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "2f1928f5-39a6-4fea-b7f3-09db146d5f7f"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1091,7 +1087,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "b59a5779-080e-47d4-9d21-0e4c0600ddf8"
+      "__uuid__": "30d5c3f4-ea41-45ad-925b-f2c80dd0d7c4"
     },
     "_type": 0,
     "_sizeMode": 0,
