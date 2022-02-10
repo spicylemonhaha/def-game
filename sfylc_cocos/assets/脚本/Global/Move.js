@@ -16,6 +16,7 @@ cc.Class({
        minudstate:0,
        maxlrstate:1,//左右最大移动格数
        minlrstate:0,//最小移动格数，要想在初始位置左边移动将该变量设置为负数
+       buttons: [cc.Button]
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -23,9 +24,20 @@ cc.Class({
         cc.find("Canvas").on(cc.Node.EventType.TOUCH_START,this.onTouchStart,this);
         cc.find("Canvas").on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this);
         cc.find("Canvas").on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchCancel,this);
-        
-        
-        
+        this.buttons[1].node.on(cc.Node.EventType.TOUCH_END,this.rightButtonEnd,this);
+        this.buttons[0].node.on(cc.Node.EventType.TOUCH_END,this.leftButtonEnd,this);
+    },
+    rightButtonEnd(event) {
+      if(this.lrstate < this.maxlrstate && this.dir[3]) {
+        this.node.x += this.xmove;
+        this.lrstate ++;
+      }
+    },
+    leftButtonEnd(event) {
+      if(this.lrstate > this.minlrstate && this.dir[2]) {
+        this.node.x -= this.xmove;
+        this.lrstate --;
+      }
     },
     onTouchStart(event) {
         var touches = event.getTouches();

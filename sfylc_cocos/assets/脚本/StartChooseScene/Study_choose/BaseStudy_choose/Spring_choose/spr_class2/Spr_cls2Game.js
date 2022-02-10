@@ -24,22 +24,6 @@ cc.Class({
 
 
         var self=this;
-        function loadImgByUrl( remoteUrl) {
-            cc.assetManager.loadRemote(remoteUrl, function (err, texture) {
-                if (err) {console.log("err "+remoteUrl);return;}
-                self.Red = new cc.SpriteFrame(texture);
-                var Bins = self.node.getComponent("Spr_clsGameLoading").Bins;
-                require("Scripts").ChangeSizeByNode(
-                    Bins[self.player.getComponent("Move").lrstate].node.parent,
-                    self.Red
-                )
-            });
-        }
-        
-        
-        loadImgByUrl("https://www1.forwhat01.top/others/sfylc_resource/draw/General/sprcls2_boxred.png")
-        
-
         this.index = 0,this.ans = 0
         var Move = this.node.children[1].getComponent("Move");
         var Bins = this.node.getComponent("Spr_clsGameLoading").Bins; 
