@@ -2,7 +2,7 @@
   "appid": "wxce042ad61a5f4c2e",
   "orientation": "landscape",
   "separate_engine": false,
-  "REMOTE_SERVER_ROOT": "",
+  "REMOTE_SERVER_ROOT": "https://www.spicylemon.fun",
   "subContext": "",
   "startSceneAssetBundle": false
 }

@@ -32,6 +32,7 @@ var exports={
         cc.assetManager.loadRemote(_url, function (err, tex) {
             if (err) { console.log("err"); return }
             self.addtexture(_node,tex);
+            console.log(tex);
         });
     },
     GetFromSpriteName(_name, func, _end = ".png") {

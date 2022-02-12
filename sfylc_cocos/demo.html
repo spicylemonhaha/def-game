@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  // function Parent() {
+//   this.names = ['Kevin', 'daisy'];
+// }
+// function Child() {
+
+// }
+
+// Child.prototype = new Parent();
+// var child1 = new Child();
+// child1.names.push('jack');
+// var child2 = new Child();
+// console.log(child1.names);
+// console.log(child2.names);
+// function Parent(age) {
+//   this.names = ['kevin', 'daisy'];
+//   this.age = age;
+// }
+// function Child(age) {
+//   Parent.call(this, age);
+// }
+// var child1 = new Child(12);
+// child1.names.push('jack');
+// console.log(child1.names);
+// var child2 = new Child(13);
+// console.log(child2.names);
+// console.log(child2.age);
+
+function Parent(name) {
+  this.name = name;
+  this.colors = ['red', 'blud', 'green'];
+}
+Parent.prototype.getNames = function() {
+  console.log(this.name);
+}
+function Child(name, age) {
+  Parent.call(this, name);
+  this.age = age;
+}
+Child.prototype = new Parent();
+Child.prototype.constructor = Child;
+
+var child1 = new Child('jack', 18);
+child1.colors.push('blue');
+console.log(child1);
+
+var child2 = new Child('daisy', '20');
+console.log(child2)
+</script>
+</body>
+</html>

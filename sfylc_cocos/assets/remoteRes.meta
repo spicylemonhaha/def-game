@@ -2,23 +2,27 @@
   "ver": "1.1.2",
   "uuid": "6019c89f-98e0-49b9-ac39-fdbe66b49d10",
   "isBundle": true,
-  "bundleName": "login",
+  "bundleName": "remoteRes",
   "priority": 1,
   "compressionType": {
     "android": "default",
-    "ios": "default"
+    "ios": "default",
+    "wechatgame": "default"
   },
   "optimizeHotUpdate": {
     "android": false,
-    "ios": false
+    "ios": false,
+    "wechatgame": false
   },
   "inlineSpriteFrames": {
     "android": false,
-    "ios": false
+    "ios": false,
+    "wechatgame": false
   },
   "isRemoteBundle": {
     "android": false,
-    "ios": true
+    "ios": true,
+    "wechatgame": true
   },
   "subMetas": {}
 }
